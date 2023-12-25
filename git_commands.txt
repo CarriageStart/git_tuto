@@ -1,4 +1,5 @@
 
+#   1. Change tracking
 # Git reset
 # - It can go forward or backward anyway if the commit is logged in git track.
 #   Return or go to the commit stage
@@ -11,3 +12,16 @@ git reset --hard    # By default, tracks to the last commit in git track
 # - revert leaves another commit of revertion.
 git revert (Hash of commit)
 git revert --no-commit  (Hash of commit) # This doesn't leave a commit.
+
+
+#   2. Branching
+git status  # You can check the current branch with this
+# Add new branch
+git branch (branch_name)    
+# Switch branch
+git switch (branch_name)    
+
+# Add and switch at the same time
+git switch -c (branch_name)
+# Remove branch
+git branch -d (branch_name)
