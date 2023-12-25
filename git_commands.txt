@@ -1,3 +1,9 @@
+#   0. Check branch
+git branch
+git status
+git log
+#   Advanced logs
+git log -all --decorate --oneline --graph
 
 #   1. Change tracking
 # Git reset
@@ -25,3 +31,6 @@ git switch (branch_name)
 git switch -c (branch_name)
 # Remove branch
 git branch -d (branch_name)
+git branch -D (branch_name) # If branch has commits which is not merged.//
+# Rename branch
+git branch -m (branch_name) (new_name)
