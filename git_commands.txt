@@ -34,3 +34,22 @@ git branch -d (branch_name)
 git branch -D (branch_name) # If branch has commits which is not merged.//
 # Rename branch
 git branch -m (branch_name) (new_name)
+
+#   3. Merging
+# Merge
+# Apply all commits of target branch on current branch
+# The merge is logged in commit therefore revertable or resettable
+# The target branch is not removed(still seperated)
+git merge (target_branch)
+# If you don't need the target branch, remove it
+git branch -d (target_branch)
+
+# rebase
+# On current status of the current branch, apply the target branch commits
+# Rebase the current branch with the target branch
+# All commits of current branch is replaced to target branch
+git rebase (target_branch)
+
+# git 
+
+
