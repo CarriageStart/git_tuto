@@ -1,0 +1,13 @@
+
+# Git reset
+# - It can go forward or backward anyway if the commit is logged in git track.
+#   Return or go to the commit stage
+git reset --hard (Hash of commit)
+git reset --hard    # By default, tracks to the last commit in git track
+
+
+# git revert
+# - It revert the specified commit. 
+# - revert leaves another commit of revertion.
+git revert (Hash of commit)
+git revert --no-commit  (Hash of commit) # This doesn't leave a commit.

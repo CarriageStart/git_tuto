@@ -6,6 +6,8 @@
 
 # Exception on ingore
 !notIgnoreThis.txt
+!git_commands.txt
+!cmd_commands.txt
 
 # Folder ignore
 logs
