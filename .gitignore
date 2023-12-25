@@ -1,0 +1,18 @@
+# htmls
+*.html
+
+# txt
+*.txt
+
+# Exception on ingore
+!notIgnoreThis.txt
+
+# Folder ignore
+logs
+logs/   # Only the contents
+
+# Specify the location
+logs/*.c
+logs/**/debug.log   #   Any
+
+
